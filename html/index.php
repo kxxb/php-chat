@@ -1,3 +1,4 @@
 <?php
-echo "string docker"; 
+
+echo phpinfo();
 ?>

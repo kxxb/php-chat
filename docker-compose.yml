@@ -5,7 +5,7 @@ services:
   nginx:
     image: nginx
     environment:
-      - VIRTUAL_HOST=site.local
+      - VIRTUAL_HOST=chat.local
     depends_on:
       - php
     volumes:
